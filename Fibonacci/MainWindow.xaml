@@ -1,0 +1,12 @@
+﻿<Window x:Class="Fibonacci.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="أعداد فيبوناتشي" Height="140" Width="300" ResizeMode="NoResize" FlowDirection="RightToLeft" Background="White" WindowStartupLocation="CenterScreen" Icon="Icon.ico">
+    <Grid>
+        <TextBox x:Name="Number" Height="23" Margin="51,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="194" MaxLength="19" FlowDirection="LeftToRight"/>
+        <Button Content="الحساب بشكل عودي" HorizontalAlignment="Left" Margin="24,59,0,0" VerticalAlignment="Top" Width="106" Click="Button_Click_1" Height="32"/>
+        <Button Content="الحساب بشكل خطي" HorizontalAlignment="Right" Margin="0,59,25,0" VerticalAlignment="Top" Width="106" Click="Button_Click_2" Height="32"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" TextAlignment="Center" Foreground="#FF002EFF"><Run Text="ايجاد قيمة فيبوناتشي للعدد"/><Run Text=":"/></TextBlock>
+
+    </Grid>
+</Window>
